@@ -19,16 +19,5 @@ inclua biblioteca Matematica --> mat
     mult = mat.arredondar(mult, 3)
   
     escreva("A RENDA DO JOGO FOI: ", mult)
-
-   
-
-
-
-
-
-
-
-
-
   }
 }
