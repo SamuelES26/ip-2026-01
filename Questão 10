@@ -1,0 +1,14 @@
+programa {
+   funcao inicio() {
+      real a, b, c, d, det
+
+      leia(a)
+      leia(b)
+      leia(c)
+      leia(d)
+
+      det = a*d - b*c
+
+      escreva("O VALOR DO DETERMINANTE E = ", det, "\n")
+   }
+}
