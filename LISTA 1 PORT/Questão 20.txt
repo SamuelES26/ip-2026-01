@@ -1,0 +1,13 @@
+programa {
+   funcao inicio() {
+      inteiro h, m, s, total
+
+      leia(h)
+      leia(m)
+      leia(s)
+
+      total = h*3600 + m*60 + s
+
+      escreva("O TEMPO EM SEGUNDOS E = ", total, "\n")
+   }
+}

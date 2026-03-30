@@ -1,0 +1,17 @@
+programa {
+   funcao inicio() {
+      inteiro a1, r, n, i, soma, termo
+
+      leia(a1, r, n)
+
+      soma = 0
+      termo = a1
+
+      para(i = 1; i <= n; i++) {
+         soma = soma + termo
+         termo = termo + r
+      }
+
+      escreva(soma, "\n")
+   }
+}

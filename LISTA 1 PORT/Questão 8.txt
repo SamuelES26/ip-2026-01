@@ -1,0 +1,15 @@
+programa {
+      inclua biblioteca Matematica --> mat
+   funcao inicio() {
+      real r, h, area, custo
+
+      leia(r)
+      leia(h)
+
+      area = 2 * 3.14159 * r * r + 2 * 3.14159 * r * h
+      custo = area * 100
+      custo = mat.arredondar(custo, 2)
+
+      escreva("O VALOR DO CUSTO E = ", custo, "\n")
+   }
+}

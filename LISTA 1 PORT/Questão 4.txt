@@ -1,0 +1,22 @@
+programa {     
+              inclua biblioteca Matematica --> mat
+  funcao inicio() {
+    inteiro sm
+    real sm, kw, ukw, ckw, pkw, dkw
+
+    escreva("Digite o salário e a quantidade de consumo: \n")
+    leia(sm, kw)
+    
+    ckw = sm*0.7
+    ukw = ckw/100
+    pkw = kw*ukw
+    dkw = pkw*0.9
+    ukw = mat.arredondar(ukw, 2)
+    pkw = mat.arredondar(pkw, 2)
+    dkw = mat.arredondar(dkw, 2)
+    escreva("Custo por KW: R$", ukw,"\n")
+    escreva("Custo do consumo: R$", pkw,"\n")
+    escreva("Custo com desconto: R$", dkw,"\n")
+  
+  }
+}

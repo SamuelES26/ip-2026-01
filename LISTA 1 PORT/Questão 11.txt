@@ -1,0 +1,13 @@
+programa {
+   funcao inicio() {
+      inteiro n
+
+      leia(n)
+
+      se (n % 3 == 0 && n % 5 == 0) {
+         escreva("O NUMERO E DIVISIVEL\n")
+      } senao {
+         escreva("O NUMERO NAO E DIVISIVEL\n")
+      }
+   }
+}

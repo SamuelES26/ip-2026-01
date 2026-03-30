@@ -1,0 +1,18 @@
+programa {
+   funcao inicio() {
+      inteiro n, i
+      real s
+
+      leia(n)
+
+      se (n <= 1) {
+         escreva("Numero invalido!\n")
+      } senao {
+         s = 0
+         para(i = 1; i <= n; i++) {
+            s = s + 1.0/i
+         }
+         escreva(s, "\n")
+      }
+   }
+}

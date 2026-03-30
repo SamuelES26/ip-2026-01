@@ -1,0 +1,17 @@
+programa {  
+          inclua biblioteca Matematica --> mat
+  
+   funcao inicio() {
+      inteiro n, i
+      real f, c
+
+      leia(n)
+
+      para(i = 1; i <= n; i++) {
+         leia(f)
+         c = (5 * (f - 32)) / 9
+         c = mat.arredondar(c, 2)
+         escreva(f, " FAHRENHEIT EQUIVALE A ", c, " CELSIUS\n")
+      }
+   }
+}

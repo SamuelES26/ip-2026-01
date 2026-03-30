@@ -1,0 +1,16 @@
+programa {
+   funcao inicio() {
+      inteiro x, y, i
+
+      leia(x, y)
+
+      se (x % 2 != 0) {
+         escreva("O PRIMEIRO NUMERO NAO E PAR\n")
+      } senao {
+         para(i = 0; i < y; i++) {
+            escreva(x + i*2, " ")
+         }
+         escreva("\n")
+      }
+   }
+}

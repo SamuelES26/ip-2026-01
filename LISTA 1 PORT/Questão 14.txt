@@ -1,0 +1,15 @@
+programa {
+   inclua biblioteca Matematica --> mat
+
+   funcao inicio() {
+      real h, a, area, volume
+
+      leia(h)
+      leia(a)
+
+      area = (3 * a * a * mat.raiz(3)) / 2
+      volume = (area * h) / 3
+
+      escreva("O VOLUME DA PIRAMIDE E = ", volume, " METROS CUBICOS\n")
+   }
+}

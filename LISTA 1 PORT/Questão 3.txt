@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro n1, n2 , n3, x, y
+
+    escreva("Digite os números: \n") 
+    leia(n1)
+    leia(n2)
+    leia(n3)
+
+    se (n1 > 9 ou n1 < 0 ou n2 > 9 ou n2 < 0 ou n3 > 9 ou n3 < 0)
+    {
+      escreva("DIGITO INVALIDO")
+    }
+    senao
+    {
+      x= n1 *100 + n2 * 10 + n3
+      
+      y = x * x
+
+    }
+    
+
+      escreva(x ,", ",  y)
+  }
+}
